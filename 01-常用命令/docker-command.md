@@ -1,8 +1,6 @@
 # Docker 常用命令
 
-## 安装 Install
-
-### 安装 Docker
+## 安装 Docker
 
 直接执行脚本即可：
 
@@ -16,7 +14,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
 docker version
 ```
 
-### 安装 docker-compose
+## 安装 docker-compose
 
 直接执行脚本即可：
 
@@ -37,7 +35,7 @@ docker-compose version
 ```
 
 
-### 镜像相关命令
+## 镜像相关命令
 
 + 列出所有镜像
 
@@ -51,13 +49,13 @@ docker image ls
 docker image rm <image-name>
 ```
 
-### 容器相关命令
+## 容器相关命令
 
 + 基于镜像新建一个容器并启动
 
 
 
-### Compose 相关命令
+## Compose 相关命令
 
 Compose 命令都是针对项目的，因此需要在项目目录下也就是 docker-compose.yml 文件所在目录下执行。
 
@@ -112,7 +110,7 @@ docker-compose ps
 ```
 
 
-### 数据卷相关命令
+## 数据卷相关命令
 
 + 列出所有数据卷
 
@@ -137,7 +135,6 @@ docker volume rm <volume-name>
 ```bash
 docker volume prune
 ```
-
 
 
 ## 参考
